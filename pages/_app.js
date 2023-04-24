@@ -80,8 +80,8 @@ function MyApp({ Component, pageProps }) {
           property='og:image:alt'
           content={`${title} | ${siteName}`}
         />
-        <meta key='og_image:width' property='og:image:width' content='1200' />
-        <meta key='og_image:height' property='og:image:height' content='800' />
+        <meta key='og_image:width' property='og:image:width' content='941' />
+        <meta key='og_image:height' property='og:image:height' content='627' />
 
         <meta name='robots' content='index,follow' />
 
