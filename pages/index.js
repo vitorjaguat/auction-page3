@@ -38,10 +38,8 @@ export default function Home() {
       <Vista img={vista2} />
       <Section3 />
       <Section4 />
-      <Vista img={vista3} />
 
       <Section5 />
-      <Vista img={vista4} />
 
       <Section6 />
       <Vista img={vista5} />

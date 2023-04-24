@@ -1,4 +1,6 @@
 import Section4CardItem from './Section4CardItem';
+import vista3 from '../public/img/vistas/003.jpg';
+import Vista from './Vista';
 
 const listingId = '5192';
 
@@ -18,6 +20,7 @@ export default function Section4() {
         </div>
         {/* ))} */}
       </div>
+      <Vista img={vista3} />
     </div>
   );
 }
