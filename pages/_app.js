@@ -57,7 +57,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title key='title'>{title}</title>
+        {/* <title key='title'>{title}</title>
         <meta name='description' content={description} />
         <meta key='og_type' property='og:type' content={ogType} />
         <meta key='og_title' property='og:title' content={title} />
@@ -101,6 +101,39 @@ function MyApp({ Component, pageProps }) {
           key='twitter:description'
           property='twitter:description'
           content={description}
+        />
+        <meta
+          name='twitter:image'
+          content='https://www.moreabstract.xyz/card.jpg'
+        /> */}
+
+        {/* <!-- HTML Meta Tags --> */}
+        <title>MORE ABSTRACT</title>
+        <meta
+          name='description'
+          content='Pedro Victor Brandão at Portas Vilaseca'
+        />
+
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta property='og:url' content='https://www.moreabstract.xyz/' />
+        <meta property='og:title' content='MORE ABSTRACT' />
+        <meta
+          property='og:description'
+          content='Pedro Victor Brandão at Portas Vilaseca'
+        />
+        <meta
+          property='og:image'
+          content='https://www.moreabstract.xyz/card.jpg'
+        />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name='twitter:card' content='summary_large_image' />
+        <meta property='twitter:domain' content='moreabstract.xyz' />
+        <meta property='twitter:url' content='https://www.moreabstract.xyz/' />
+        <meta name='twitter:title' content='MORE ABSTRACT' />
+        <meta
+          name='twitter:description'
+          content='Pedro Victor Brandão at Portas Vilaseca'
         />
         <meta
           name='twitter:image'
