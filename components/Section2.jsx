@@ -78,7 +78,7 @@ export default function Section2() {
                 exhibition{' '}
                 <a
                   className='cursor-pointer font-bold'
-                  href='#'
+                  href='/pdf-en.pdf'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -87,7 +87,7 @@ export default function Section2() {
                 , in portuguese{' '}
                 <a
                   className='cursor-pointer font-bold'
-                  href='#'
+                  href='/pdf-pt.pdf'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -165,7 +165,7 @@ export default function Section2() {
                 exposição{' '}
                 <a
                   className='cursor-pointer font-bold'
-                  href='#'
+                  href='/pdf-en.pdf'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -174,7 +174,7 @@ export default function Section2() {
                 , e em português{' '}
                 <a
                   className='cursor-pointer font-bold'
-                  href='#'
+                  href='/pdf-pt.pdf'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
