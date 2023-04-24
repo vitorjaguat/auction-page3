@@ -77,7 +77,16 @@ export default function Footer() {
             Manifold
           </a>
         </div>
-        <div className='mb-2 sm:mb-0'>developed by Vitor Butkus</div>
+        <div className='mb-2 sm:mb-0'>
+          developed by{' '}
+          <a
+            href='http://card-do-vitor.vercel.app'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Vitor Butkus
+          </a>
+        </div>
         <div className='-mb-2 sm:mb-0'>2023</div>
       </div>
     </div>
