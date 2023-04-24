@@ -11,7 +11,7 @@ import { appWithTranslation } from 'next-i18next';
 import Head from 'next/head';
 
 const DOMAIN = 'https://www.moreabstract.xyz';
-const DEFAULT_OG_IMAGE = '../public/card.jpg';
+const DEFAULT_OG_IMAGE = 'https://www.moreabstract.xyz/card.jpg';
 
 // Fonts:
 const din = localFont({
@@ -70,7 +70,11 @@ function MyApp({ Component, pageProps }) {
         <meta key='og_site_name' property='og:site_name' content={siteName} />
         <meta key='og_url' property='og:url' content={canonical ?? DOMAIN} />
         <meta key='og_site_name' property='og:site_name' content={siteName} />
-        <meta key='og_image' property='og:image' content='../public/card.jpg' />
+        <meta
+          key='og_image'
+          property='og:image'
+          content='https://www.moreabstract.xyz/card.jpg'
+        />
         <meta
           key='og_image:alt'
           property='og:image:alt'
@@ -98,7 +102,10 @@ function MyApp({ Component, pageProps }) {
           property='twitter:description'
           content={description}
         />
-        <meta name='twitter:image' content='../public/card.jpg' />
+        <meta
+          name='twitter:image'
+          content='https://www.moreabstract.xyz/card.jpg'
+        />
 
         <link rel='canonical' href={canonical ?? DOMAIN} />
 
