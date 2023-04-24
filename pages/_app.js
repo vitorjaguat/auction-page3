@@ -3,7 +3,7 @@ import '../styles/marketplace.css';
 // import { useEffect } from 'react';
 // import { useRouter } from 'next/router';
 import localFont from '@next/font/local';
-import ogImg from '../public/img/og-img.png';
+// import ogImg from '../public/card.jpg';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import { appWithTranslation } from 'next-i18next';
 
@@ -11,7 +11,7 @@ import { appWithTranslation } from 'next-i18next';
 import Head from 'next/head';
 
 const DOMAIN = 'https://www.moreabstract.xyz';
-const DEFAULT_OG_IMAGE = ogImg;
+const DEFAULT_OG_IMAGE = '../public/card.jpg';
 
 // Fonts:
 const din = localFont({
@@ -81,7 +81,7 @@ function MyApp({ Component, pageProps }) {
           content={`${title} | ${siteName}`}
         />
         <meta key='og_image:width' property='og:image:width' content='1200' />
-        <meta key='og_image:height' property='og:image:height' content='630' />
+        <meta key='og_image:height' property='og:image:height' content='800' />
 
         <meta name='robots' content='index,follow' />
 
