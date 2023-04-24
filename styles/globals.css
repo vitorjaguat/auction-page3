@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --manifold-text--font-family--body: var(--din-font);
+  --manifold-text--font-family--header: var(--din-font);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.faq-row-wrapper.faq-title {
+  text-align: right;
+  font-size: small;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    color: var(--manifold-text--color--body);
+    background: var(--manifold-page--color--background);
+  }
+}
+
+/* do not display image on Click to learn more card */
+.no-image img {
+  display: none;
+}
+
+.no-image .m-lazy-music audio[data-v-ba734e87] {
+  width: 90%;
+  height: 2.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.m-attribute {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 3px;
+}
+
+.m-attribute span {
+  max-width: 50%;
+  word-wrap: break-word;
+}
+
+.m-attribute span:nth-of-type(2) {
+  text-align: end;
+}
+
+/* audio play in listing */
+.m-media-wrapper.m-lazy-music audio[data-v-ba734e87] {
+  width: 90%;
+  height: 2.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* image sizes on Mac */
+.m-media-wrapper img[data-v-28dd4a24] {
+  /* width: 100%;
+  height: 100%; */
+  min-height: 300px;
+  /* background-color: aqua; */
+}
+
+.m-video-player video[data-v-04fc00ec] {
+  min-height: 300px;
+}
