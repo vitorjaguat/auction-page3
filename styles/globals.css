@@ -81,3 +81,24 @@ html {
   object-fit: contain !important;
   align-items: normal !important;
 }
+
+@media (max-width: 600px) {
+  .listing {
+    padding-top: 15px;
+  }
+
+  .listing .manifold.m-marketplace {
+    display: flex;
+    object-fit: contain;
+    /* background-color: aqua; */
+  }
+  .listing .m-layout-listing.m-complete-view {
+    display: block;
+  }
+  .listing .m-column.m-main {
+    max-width: 100vw;
+  }
+  .listing .m-attribute {
+    max-width: 90vw;
+  }
+}

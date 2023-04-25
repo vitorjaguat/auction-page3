@@ -56,7 +56,7 @@ export default function Document() {
           defer
         ></script>
 
-        <script
+        {/* <script
           src='https://claims.manifoldxyz.dev/1.5.2/claimComplete.umd.min.js'
           async
           defer
@@ -64,7 +64,7 @@ export default function Document() {
         <link
           rel='stylesheet'
           href='https://claims.manifoldxyz.dev/1.5.2/claimComplete.css'
-        />
+        /> */}
 
         {/* <link
           rel='stylesheet'

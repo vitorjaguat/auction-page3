@@ -23,12 +23,12 @@ export default function ListingID() {
       </div>
 
       {/* ~~ Add Marketplace Widget component ~~ */}
-      <div className='max-w-[1100px] mx-auto'>
+      <div className='md:max-w-[1100px] mx-auto listing'>
         <Listing
           id={listingId}
           // network={process.env.NEXT_APP_NETWORK}
           // id={'4250'}
-          network={'1'}
+          network='1'
         />
       </div>
 
