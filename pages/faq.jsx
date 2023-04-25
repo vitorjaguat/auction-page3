@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Faq from 'react-faq-component';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import Footer from '../components/Footer';
 import Image from 'next/image';
 import faqImg from '../public/img/detail/004.jpg';
+import { useRouter } from 'next/router';
 
 const styles = {
   bgColor: 'transparent',
@@ -26,6 +27,7 @@ const config = {
 
 export default function FaqPage() {
   const { t } = useTranslation('common');
+  const router = useRouter();
 
   const data = {
     title: t('faq.instructions'),
@@ -96,6 +98,14 @@ export default function FaqPage() {
       <div className='py-20 px-6 md:px-20 xl:px-60'>
         <div className='pb-24 text-lg'>{t('faq.intro')}</div>
         <Faq data={data} styles={styles} config={config} />
+        <div className='mt-10 flex w-full justify-between items-stretch pt-12 md:pb-8'>
+          <div
+            onClick={() => router.push('/')}
+            className='flex justify-center items-center cursor-pointer rounded-lg border-[0.5px] py-3 px-5 hover:text-slate-400 hover:bg-slate-900 text-sm tracking-widest md:w-[200px]'
+          >
+            HOME
+          </div>
+        </div>
       </div>
       <Footer />
     </div>
