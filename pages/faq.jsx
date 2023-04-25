@@ -8,10 +8,10 @@ import faqImg from '../public/img/detail/004.jpg';
 
 const styles = {
   bgColor: 'transparent',
-  titleTextColor: 'grey',
+  titleTextColor: '#b1b1b1',
   rowTitleColor: 'white',
-  rowContentColor: 'grey',
-  arrowColor: 'grey',
+  rowContentColor: '#b1b1b1',
+  arrowColor: '#b1b1b1',
   // rowContentPaddingLeft: '30px',
   // rowContentPaddingRight: '70px',
   rowContentPaddingBottom: '1.5rem',
