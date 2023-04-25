@@ -3,6 +3,8 @@ import Faq from 'react-faq-component';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import Footer from '../components/Footer';
+import Image from 'next/image';
+import faqImg from '../public/img/detail/004.jpg';
 
 const styles = {
   bgColor: 'transparent',
@@ -85,7 +87,12 @@ export default function FaqPage() {
 
   return (
     <div className='w-screen'>
-      <div className='w-full h-[30vh] bg-slate-700'>imagem</div>
+      <div className='w-full h-[40vh] bg-slate-700 relative'>
+        <Image src={faqImg} fill className='object-cover' />
+        <div className='absolute bottom-4 right-6 text-5xl text-black tracking-wider'>
+          FAQ
+        </div>
+      </div>
       <div className='py-20 px-6 md:px-20 xl:px-60'>
         <div className='pb-24 text-lg'>{t('faq.intro')}</div>
         <Faq data={data} styles={styles} config={config} />
