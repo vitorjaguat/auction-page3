@@ -1,6 +1,6 @@
 {
   "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/faq": "pages/faq.js"
+  "/_document": "pages/_document.js",
+  "/artwork/[listingId]": "pages/artwork/[listingId].js"
 }

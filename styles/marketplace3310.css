@@ -1668,6 +1668,7 @@ input:checked + .m-toggle-slider[data-v-5af0f0e6]:before {
 .m-media-wrapper audio {
   width: 95rem;
 }
+
 .no-image .m-lazy-music audio[data-v-ba734e87] {
   width: 95%;
   height: 2.7rem;

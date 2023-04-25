@@ -1,0 +1,20 @@
+.m-media-expandable .m-media-display[data-v-70941480] {
+  max-height: auto;
+  object-fit: contain;
+  background-color: aqua;
+}
+.main .m-media-wrapper[data-v-28dd4a24] {
+  object-fit: contain;
+  background-color: aqua;
+}
+.m-lazy-image img[data-v-28dd4a24] {
+  max-width: inherit;
+  max-height: inherit;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  object-position: center center;
+  pointer-events: none;
+  background-color: aqua;
+}
+/* .m-media-wrapper img[data-v-28dd4a24] { */

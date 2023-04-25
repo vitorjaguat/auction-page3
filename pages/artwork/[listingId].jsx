@@ -2,13 +2,14 @@ import Connect from '../../components/Connect';
 import Listing from '../../components/Listing';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
+import styles from '../../styles/Listing.module.css';
 
 export default function ListingID() {
   const router = useRouter();
   const listingId = router.query.listingId;
 
   return (
-    <div className='w-screen'>
+    <div className='image-aligned w-screen'>
       {/* -- Add Connect Widget -- */}
       <div className='flex w-full justify-between items-stretch p-8 pb-4 md:pb-8 px-3 md:px-8'>
         <div
