@@ -15,8 +15,8 @@ export default function Section6() {
         {/* <div className='rounded-sm bg-slate-900 h-fit'>
           <Section6CardItem instance={listingId} />
         </div> */}
-        <div className='p-20'>
-          <a
+        <div className='pb-36'>
+          {/* <a
             href='https://app.manifold.xyz/c/firstfaucet'
             target='_blank'
             rel='noopener noreferrer'
@@ -27,7 +27,12 @@ export default function Section6() {
               width={1873}
               alt='Faucet (2023)'
             />
-          </a>
+          </a> */}
+          <iframe
+            src='https://app.manifold.xyz/c/firstfaucet'
+            title='Faucet (2023) - Claim Here'
+            className='w-screen h-[1200px]'
+          />
         </div>
       </div>
     </div>
