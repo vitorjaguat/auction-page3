@@ -16,7 +16,7 @@ export default function Section2() {
           </div>
 
           {currentLang === 'en' && (
-            <div className='leading-8 uppercase'>
+            <div className='leading-8 text-white uppercase'>
               <div className='mb-6'>
                 <span className='font-bold'>Portas Vilaseca</span> presents{' '}
                 <span className='font-bold'>Pedro Victor Brandão</span>'s third
@@ -105,7 +105,7 @@ export default function Section2() {
             </div>
           )}
           {currentLang === 'pt' && (
-            <div className='text-md leading-8 uppercase'>
+            <div className='text-white text-md leading-8 uppercase'>
               <div className='mb-6'>
                 <span className='font-bold'>Portas Vilaseca</span> apresenta a
                 terceira exposição individual de{' '}
