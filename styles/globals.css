@@ -113,6 +113,10 @@ html {
   /* position: relative; */
 }
 
+#footer-container {
+  display: none !important;
+}
+
 @media (max-width: 1024px) {
   #campaign-complete
     #campaign-complete-info-container
