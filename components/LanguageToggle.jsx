@@ -28,7 +28,7 @@ const LanguageToggle = () => {
   //locale - Optional string, indicates locale of the new page
 
   return (
-    <div className='flex justify-center items-center text-[12px] md:text-xs tracking-wide'>
+    <div className='flex justify-center items-center text-[12px] md:text-xs tracking-wide text-white'>
       <Link
         href={{
           pathname: router.pathname,

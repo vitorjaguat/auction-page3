@@ -4,7 +4,7 @@ import vista1 from '../public/img/vistas/001.jpg';
 
 export default function Hero() {
   return (
-    <div className='w-screen h-screen relative'>
+    <div className='w-screen h-screen relative text-black bg-black'>
       <div className='uppercase text-black text-5xl md:text-6xl lg:text-7xl sticky max-w-[30px] sm:max-w-none top-0 p-4 z-10'>
         MORE ABSTRACT
       </div>
