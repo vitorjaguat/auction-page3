@@ -104,6 +104,20 @@ html {
   /* font-family: var(--din-font); */
 }
 
+/* #campaign-complete-info-summary-countdown-action {
+  position: relative;
+} */
+
 .m-claim .m-project {
   font-family: var(--din-font);
+  /* position: relative; */
+}
+
+@media (max-width: 1024px) {
+  #campaign-complete
+    #campaign-complete-info-container
+    #campaign-complete-info
+    #campaign-buy-button[data-v-8d344bfa] {
+    position: sticky;
+  }
 }
