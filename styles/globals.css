@@ -113,7 +113,7 @@ html {
   /* position: relative; */
 }
 
-#footer-container {
+.claim-widget #footer-container {
   display: none !important;
 }
 
