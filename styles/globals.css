@@ -97,3 +97,13 @@ html {
     max-width: 90vw;
   }
 }
+
+/* claim widget  */
+.claim-widget .m-connection-container {
+  border-radius: var(--manifold-border--radius);
+  /* font-family: var(--din-font); */
+}
+
+.m-claim .m-project {
+  font-family: var(--din-font);
+}

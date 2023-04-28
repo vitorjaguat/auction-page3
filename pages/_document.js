@@ -56,15 +56,15 @@ export default function Document() {
           defer
         ></script>
 
-        {/* <script
-          src='https://claims.manifoldxyz.dev/1.5.2/claimComplete.umd.min.js'
+        <script
+          src='https://claims.manifoldxyz.dev/1.5.3/claimComplete.umd.min.js'
           async
           defer
         ></script>
         <link
           rel='stylesheet'
-          href='https://claims.manifoldxyz.dev/1.5.2/claimComplete.css'
-        /> */}
+          href='https://claims.manifoldxyz.dev/1.5.3/claimComplete.css'
+        />
 
         {/* <link
           rel='stylesheet'
