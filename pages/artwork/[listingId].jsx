@@ -9,7 +9,7 @@ export default function ListingID() {
   const listingId = router.query.listingId;
 
   return (
-    <div className='image-aligned w-screen'>
+    <div className='image-aligned w-screen bg-black'>
       {/* -- Add Connect Widget -- */}
       <div className='flex w-full justify-between items-stretch p-8 pb-4 md:pb-8 px-3 md:px-8'>
         <div

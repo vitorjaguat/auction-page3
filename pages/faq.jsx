@@ -88,7 +88,7 @@ export default function FaqPage() {
   };
 
   return (
-    <div className='w-screen'>
+    <div className='w-screen bg-black'>
       <div className='w-full h-[40vh] bg-slate-700 relative'>
         <Image src={faqImg} fill className='object-cover' />
         <div className='absolute bottom-4 right-6 text-5xl text-black tracking-wider'>

@@ -26,7 +26,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className='w-screen'>
+    <div className='w-screen bg-black'>
       {/* <Head>
         <title>Marketplace do Antílope</title>
         <meta name='description' content='Marketplace do Antílope Cerejinha' />

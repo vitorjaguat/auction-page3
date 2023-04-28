@@ -6,7 +6,7 @@ const listingId = '1045020912';
 
 export default function Section6() {
   return (
-    <div className='w-screen' id='faucet'>
+    <div className='w-screen bg-black' id='faucet'>
       <div className='h-16 w-full bg-black/80 sticky top-0 left-0 px-10 sm:px-20  z-10 flex items-center tracking-[6px] text-sm sm:text-md'>
         FAUCET (2023), FROM PREPARED SCREEN SERIES (2012-)
       </div>
