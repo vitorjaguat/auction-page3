@@ -5,6 +5,9 @@
 :root {
   --manifold-text--font-family--body: var(--din-font);
   --manifold-text--font-family--header: var(--din-font);
+  color-scheme: dark;
+  color: var(--manifold-text--color--body);
+  background: var(--manifold-page--color--background);
 }
 
 html {
@@ -14,12 +17,6 @@ html {
 .faq-row-wrapper.faq-title {
   text-align: right;
   font-size: small;
-}
-
-:root {
-  color-scheme: dark;
-  color: var(--manifold-text--color--body);
-  background: var(--manifold-page--color--background);
 }
 
 /* do not display image on Click to learn more card */
