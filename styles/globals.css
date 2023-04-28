@@ -16,12 +16,10 @@ html {
   font-size: small;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: dark;
-    color: var(--manifold-text--color--body);
-    background: var(--manifold-page--color--background);
-  }
+:root {
+  color-scheme: dark;
+  color: var(--manifold-text--color--body);
+  background: var(--manifold-page--color--background);
 }
 
 /* do not display image on Click to learn more card */
