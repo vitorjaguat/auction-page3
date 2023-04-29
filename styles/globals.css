@@ -125,3 +125,8 @@ html {
     position: sticky;
   }
 }
+
+/* Open sea button */
+.m-catalog-card-actions .m-interactive-button {
+  padding: 3px 0;
+}
