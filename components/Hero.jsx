@@ -15,6 +15,7 @@ export default function Hero() {
           fill
           alt='Vista da exposição'
           className='object-cover'
+          unoptimized
         />
       </div>
 
