@@ -6,6 +6,7 @@ import localFont from '@next/font/local';
 // import ogImg from '../public/card.jpg';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import { appWithTranslation } from 'next-i18next';
+import { Analytics } from '@vercel/analytics/react';
 
 //SEO & Head:
 import Head from 'next/head';
@@ -147,6 +148,7 @@ function MyApp({ Component, pageProps }) {
       <main className={`${din.variable} font-din`}>
         <ParallaxProvider>
           <Component {...pageProps} />
+          <Analytics />
         </ParallaxProvider>
       </main>
     </>
