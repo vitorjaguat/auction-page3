@@ -4,6 +4,7 @@ import detail1 from '../public/img/detail/001.jpg';
 import detail2 from '../public/img/detail/002.jpg';
 import detail3 from '../public/img/detail/003.jpg';
 import detail4 from '../public/img/detail/004.jpg';
+import { useRouter } from 'next/router';
 
 const listingIds = [
   5155, 5156, 5157, 5158, 5159, 5160, 5161, 5163, 5164, 5165, 5166, 5167, 5168,
@@ -23,6 +24,29 @@ const listingIds3 = [
 const listingIds4 = [5183, 5184, 5185, 5186, 5187, 5188, 5189, 5190, 5191];
 
 export default function Section3() {
+  // const openseaLinks =
+  //   typeof window !== 'undefined'
+  //     ? document.querySelectorAll('.m-interactive-button[data-v-03da633b] span')
+  //     : [];
+
+  //   const router = useRouter()
+
+  //   if (typeof window !== undefined) {
+  //     const openseaLinks = document.querySelectorAll(
+  //       '.m-interactive-button[data-v-03da633b] span'
+  //     );
+
+  //     const openseaLinksEnded = Array.from(openseaLinks).map((link) => {
+  //       if ((link.innerHTML = 'View on OpenSea')) {
+  //         link.addEventListener('click', () => {
+  // router.push()
+  //         })
+  //         return link;
+  //       }
+  //     });
+  //     console.log(openseaLinksEnded);
+  //   }
+
   return (
     <div className='w-screen mt-40 bg-black'>
       <div

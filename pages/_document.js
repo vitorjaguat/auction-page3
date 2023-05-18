@@ -50,11 +50,12 @@ export default function Document() {
           // href='https://marketplace.manifoldxyz.dev/3.3.10/marketplace.css'
           href='../styles/marketplace3310.css'
         />
-        <script
+        {/* <script
           src='https://marketplace.manifoldxyz.dev/3.3.10/marketplace.umd.js'
           async
           defer
-        ></script>
+        ></script> */}
+        <script src='/scripts/marketplace3310.js' async defer></script>
 
         <script
           src='https://claims.manifoldxyz.dev/1.5.3/claimComplete.umd.min.js'
