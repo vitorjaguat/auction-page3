@@ -130,3 +130,8 @@ html {
 .m-catalog-card-actions .m-interactive-button {
   padding: 3px 0;
 }
+
+/* ended bolinha */
+i.m-card-status-overlay.m-card-status-overlay--ended::before {
+  background: red;
+}
