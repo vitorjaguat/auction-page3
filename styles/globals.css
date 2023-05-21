@@ -128,8 +128,13 @@ html {
 
 /* Open sea button */
 .m-catalog-card-actions .m-interactive-button {
-  padding: 3px 0;
+  padding: 0 0;
+  height: 0 !important;
 }
+
+/* .m-card.m-card--catalog {
+  height: 100%;
+} */
 
 /* ended bolinha */
 i.m-card-status-overlay.m-card-status-overlay--ended::before {
