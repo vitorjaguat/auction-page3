@@ -146,9 +146,10 @@ function MyApp({ Component, pageProps }) {
 
         <link rel='shortcut icon' href='/img/favicon.jpg' />
       </Head>
+      {/* GOOGLE-analytics https://www.makeuseof.com/nextjs-google-analytics/ */}
       <Script
         strategy='afterInteractive'
-        src='https://www.googletagmanager.com/gtag/js?id=G-RTRYGTF57F'
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GANALYTICS}`}
       />
       <Script
         id='google-analytics'
