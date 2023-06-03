@@ -37,6 +37,17 @@ export default function Section6() {
             data-widget='m-claim-complete'
             // data-id='1040586992' //notably nyc, works!
             // data-id='1044943088' // new pepe, no!
+            data-id='1055445232' // antílope, no!
+            // data-fallback-provider
+            // data-v-app
+            // data-network='1'
+            // className='font-din'
+          ></div>
+          <div className='h-20 w-full mb-20'></div>
+          <div
+            data-widget='m-claim-complete'
+            // data-id='1040586992' //notably nyc, works!
+            // data-id='1044943088' // new pepe, no!
             data-id='1045020912' // antílope, no!
             // data-fallback-provider
             // data-v-app
