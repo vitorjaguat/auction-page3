@@ -30,13 +30,15 @@ export default function Section2() {
                 The ground floor displays the complete set of unique chemical
                 paintings from the series{' '}
                 <a href='#view'>
-                  <span className='font-bold'>View to nothingness</span>
+                  <span className='font-bold underline'>
+                    View to nothingness
+                  </span>
                 </a>
                 , alongside with a large-format print of one of these originals.
                 The second floor is dedicated to geometric abstractions,
                 including the interactive work{' '}
                 <a href='#faucet'>
-                  <span className='font-bold'>Faucet</span>
+                  <span className='font-bold underline'>Faucet</span>
                 </a>{' '}
                 from the series{' '}
                 <span className='font-bold'>Prepared screen</span>, and six new
@@ -47,18 +49,22 @@ export default function Section2() {
                 The staircase leading to the third floor houses the sound
                 installation{' '}
                 <a href='#click'>
-                  <span className='font-bold'>Click on learn more</span>
+                  <span className='font-bold underline'>
+                    Click on learn more
+                  </span>
                 </a>{' '}
                 from the series{' '}
                 <a href='#click'>
-                  <span className='font-bold'>Detremura</span>
+                  <span className='font-bold underline'>Detremura</span>
                 </a>
                 , with disturbing ads aired on social networks.
               </div>
               <div className='mb-6'>
                 The third floor showcases the films from the series{' '}
                 <a href='#cloud'>
-                  <span className='font-bold'>Cloud, Continent, Island</span>
+                  <span className='font-bold underline'>
+                    Cloud, Continent, Island
+                  </span>
                 </a>{' '}
                 and serves as a space for discussions and presentations.
               </div>
@@ -66,7 +72,9 @@ export default function Section2() {
                 All works, except for the paintings on the second floor, have
                 been tokenized as{' '}
                 <Link className='font-bold' href='/faq'>
-                  <span className='font-bold'>non-fungible tokens (NFTs)</span>
+                  <span className='font-bold underline'>
+                    non-fungible tokens (NFTs)
+                  </span>
                 </Link>{' '}
                 accessible through this website.{' '}
                 <span className='font-bold'>Natália Quinderé</span>'s critical
@@ -77,7 +85,7 @@ export default function Section2() {
                 You’ll find the full documentation in english about the
                 exhibition{' '}
                 <a
-                  className='cursor-pointer font-bold'
+                  className='cursor-pointer font-bold underline'
                   href='/pdf-en.pdf'
                   target='_blank'
                   rel='noopener noreferrer'
@@ -86,7 +94,7 @@ export default function Section2() {
                 </a>
                 , in portuguese{' '}
                 <a
-                  className='cursor-pointer font-bold'
+                  className='cursor-pointer font-bold underline'
                   href='/pdf-pt.pdf'
                   target='_blank'
                   rel='noopener noreferrer'
@@ -97,7 +105,7 @@ export default function Section2() {
               </div>
               <div className=''>
                 Got any doubts? Visit the{' '}
-                <Link className='font-bold' href='/faq'>
+                <Link className='font-bold underline' href='/faq'>
                   FAQ
                 </Link>
                 .
@@ -120,13 +128,13 @@ export default function Section2() {
                 O térreo exibe o conjunto completo de pinturas químicas únicas
                 da série{' '}
                 <a href='#view'>
-                  <span className='font-bold'>Vista para o nada</span>
+                  <span className='font-bold underline'>Vista para o nada</span>
                 </a>
                 , junto a uma impressão em grande formato de um desses
                 originais. O segundo andar é dedicado a abstrações geométricas,
                 incluindo a obra interativa{' '}
                 <a href='#faucet'>
-                  <span className='font-bold'>Torneira</span>
+                  <span className='font-bold underline'>Torneira</span>
                 </a>
                 , da série Tela preparada; e seis novas pinturas da série{' '}
                 <span className='font-bold'>Totalities</span>.
@@ -134,18 +142,22 @@ export default function Section2() {
               <div className='mb-6'>
                 A escada que leva ao terceiro andar abriga a instalação sonora{' '}
                 <a href='#click'>
-                  <span className='font-bold'>Clique no saiba mais</span>
+                  <span className='font-bold underline'>
+                    Clique no saiba mais
+                  </span>
                 </a>
                 , da série{' '}
                 <a href='#click'>
-                  <span className='font-bold'>Detremura</span>
+                  <span className='font-bold underline'>Detremura</span>
                 </a>
                 , com anúncios perturbadores exibidos nas redes sociais.
               </div>
               <div className='mb-6'>
                 O terceiro andar apresenta os filmes da série{' '}
                 <a href='#cloud'>
-                  <span className='font-bold'>Nuvem, Continente, Ilha</span>
+                  <span className='font-bold underline'>
+                    Nuvem, Continente, Ilha
+                  </span>
                 </a>{' '}
                 e serve como espaço para discussões e apresentações.
               </div>
@@ -153,7 +165,9 @@ export default function Section2() {
                 Todas as obras, exceto as pinturas do segundo andar, foram
                 emitidas como{' '}
                 <Link className='font-bold' href='/faq'>
-                  <span className='font-bold'>tokens não-fungíveis (NFTs)</span>
+                  <span className='font-bold underline'>
+                    tokens não-fungíveis (NFTs)
+                  </span>
                 </Link>{' '}
                 acessíveis através deste site. O ensaio crítico de{' '}
                 <span className='font-bold'>Natália Quinderé</span> destaca o
@@ -164,7 +178,7 @@ export default function Section2() {
                 Você encontrará a documentação completa em inglês sobre a
                 exposição{' '}
                 <a
-                  className='cursor-pointer font-bold'
+                  className='cursor-pointer font-bold underline'
                   href='/pdf-en.pdf'
                   target='_blank'
                   rel='noopener noreferrer'
@@ -173,7 +187,7 @@ export default function Section2() {
                 </a>
                 , e em português{' '}
                 <a
-                  className='cursor-pointer font-bold'
+                  className='cursor-pointer font-bold underline'
                   href='/pdf-pt.pdf'
                   target='_blank'
                   rel='noopener noreferrer'
@@ -184,7 +198,7 @@ export default function Section2() {
               </div>
               <div className=''>
                 Tem alguma dúvida? Visite o{' '}
-                <Link className='font-bold' href='/faq'>
+                <Link className='font-bold underline' href='/faq'>
                   FAQ
                 </Link>
                 .
