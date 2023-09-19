@@ -80,7 +80,7 @@ export default function Footer() {
         <div className='mb-2 sm:mb-0'>
           developed by{' '}
           <a
-            href='http://portfolio-vitor.vercel.app'
+            href='http://uint.vercel.app'
             target='_blank'
             rel='noopener noreferrer'
           >
