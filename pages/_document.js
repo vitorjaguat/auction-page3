@@ -51,7 +51,8 @@ export default function Document() {
           href='../styles/marketplace3310.css'
         />
         <script
-          src='https://marketplace.manifoldxyz.dev/3.3.10/marketplace.umd.js'
+          // src='https://marketplace.manifoldxyz.dev/3.3.10/marketplace.umd.js'
+          src='https://marketplace.manifoldxyz.dev/3.5.13/marketplace.umd.js'
           async
           defer
         ></script>
