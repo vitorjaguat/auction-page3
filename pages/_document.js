@@ -48,7 +48,8 @@ export default function Document() {
         <link
           rel='stylesheet'
           // href='https://marketplace.manifoldxyz.dev/3.3.10/marketplace.css'
-          href='../styles/marketplace3310.css'
+          href='https://marketplace.manifoldxyz.dev/3.5.13/marketplace.css'
+          // href='../styles/marketplace3310.css'
         />
         <script
           // src='https://marketplace.manifoldxyz.dev/3.3.10/marketplace.umd.js'
