@@ -31,7 +31,7 @@ html {
   justify-content: space-between;
 }
 
-.m-attribute {
+/* .m-attribute {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -41,6 +41,10 @@ html {
 .m-attribute span {
   max-width: 50%;
   word-wrap: break-word;
+} */
+
+.m-component__loading {
+  z-index: 0 !important;
 }
 
 .m-attribute span:nth-of-type(2) {
@@ -140,3 +144,16 @@ html {
 i.m-card-status-overlay.m-card-status-overlay--ended::before {
   background: red;
 }
+
+/* listing page attributes */
+/* .m-attributes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 3px;
+} */
+
+/* .m-card {
+  border: none;
+} */
