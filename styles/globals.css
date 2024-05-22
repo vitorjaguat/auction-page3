@@ -122,11 +122,14 @@ html {
 }
 
 @media (max-width: 1024px) {
-  #campaign-complete
+  /* #campaign-complete
     #campaign-complete-info-container
     #campaign-complete-info
     #campaign-buy-button[data-v-8d344bfa] {
     position: sticky;
+  } */
+  .m-claim__action-button {
+    position: relative !important;
   }
 }
 
