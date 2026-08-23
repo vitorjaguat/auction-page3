@@ -31,17 +31,28 @@ html {
   justify-content: space-between;
 }
 
-/* .m-attribute {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+.m-attribute {
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 100% !important;
   margin-bottom: 3px;
 }
 
 .m-attribute span {
   max-width: 50%;
   word-wrap: break-word;
-} */
+}
+
+.m-attributes {
+  width: 100% !important;
+}
+
+.m-attribute {
+  /* grid-template-columns: 50% 50% !important; */
+  width: 100% !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
 
 .m-component__loading {
   z-index: 0 !important;
