@@ -134,10 +134,10 @@ html {
 }
 
 /* Open sea button */
-/* .m-catalog-card-actions .m-interactive-button {
+.m-catalog-card-actions .m-interactive-button {
   padding: 0 0;
   height: 0 !important;
-} */
+}
 
 /* .m-card.m-card--catalog {
   height: 100%;
@@ -160,3 +160,7 @@ i.m-card-status-overlay.m-card-status-overlay--ended::before {
 /* .m-card {
   border: none;
 } */
+
+.m-media-wrapper--audio audio {
+  pointer-events: auto !important;
+}

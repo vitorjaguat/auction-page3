@@ -1,6 +1,6 @@
 import '../styles/globals.css';
 import '../styles/marketplace.css';
-// import { useEffect } from 'react';
+import { useEffect } from 'react';
 // import { useRouter } from 'next/router';
 import localFont from '@next/font/local';
 // import ogImg from '../public/card.jpg';
@@ -46,6 +46,42 @@ function MyApp({ Component, pageProps }) {
   //   return () => {
   //     router.events.off('routeChangeStart', handleRouteChange);
   //   };
+  // }, []);
+
+  // Manifold's m-lazy-media widget inserts a <source> into an already-mounted
+  // <audio> element (Vue patches it in as a child, not as a src attribute on
+  // <audio> itself). Browsers don't pick up a <source> added after the
+  // element has initialized, so playback silently does nothing. Force a
+  // reload once each <audio> element gets its <source>.
+  // useEffect(() => {
+  //   const loadedAudios = new WeakSet();
+
+  //   const tryLoad = (audio) => {
+  //     if (loadedAudios.has(audio)) return;
+  //     if (audio.querySelector('source[src]')) {
+  //       loadedAudios.add(audio);
+  //       audio.load();
+  //     }
+  //   };
+
+  //   document.querySelectorAll('audio').forEach(tryLoad);
+
+  //   const observer = new MutationObserver((mutations) => {
+  //     for (const mutation of mutations) {
+  //       if (mutation.target.tagName === 'AUDIO') {
+  //         tryLoad(mutation.target);
+  //       }
+  //       mutation.addedNodes.forEach((node) => {
+  //         if (node.nodeType !== 1) return;
+  //         if (node.tagName === 'AUDIO') tryLoad(node);
+  //         node.querySelectorAll?.('audio').forEach(tryLoad);
+  //       });
+  //     }
+  //   });
+
+  //   observer.observe(document.body, { childList: true, subtree: true });
+
+  //   return () => observer.disconnect();
   // }, []);
 
   const title = 'MORE ABSTRACT';
