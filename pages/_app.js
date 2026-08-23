@@ -190,15 +190,10 @@ function MyApp({ Component, pageProps }) {
           async
         ></script> */}
 
-        <script
-          src='https://identity.manifoldxyz.dev/2.1.0/walletIdentity.umd.min.js'
-          async
-          defer
-        ></script>
-        <link
-          rel='stylesheet'
-          href='https://identity.manifoldxyz.dev/2.1.0/walletIdentity.css'
-        />
+        {/* walletIdentity widget removed: v2.1.0 (and even the latest v3.0.0)
+            hardcode a call to hasura2.foundation.app, which no longer resolves
+            (NXDOMAIN). That failure was breaking hydration for the other
+            widgets on the page, including m-card-catalog artwork images. */}
 
         <script
           src='https://restrictedtoken.manifoldxyz.dev/0.1.0/restrictedToken.umd.min.js'
@@ -213,12 +208,14 @@ function MyApp({ Component, pageProps }) {
         <link
           rel='stylesheet'
           // href='https://marketplace.manifoldxyz.dev/3.3.10/marketplace.css'
-          href='https://marketplace.manifoldxyz.dev/3.5.13/marketplace.css'
+          // href='https://marketplace.manifoldxyz.dev/3.5.13/marketplace.css'
+          href='https://marketplace.manifoldxyz.dev/3.9.1/marketplace.css'
           // href='../styles/marketplace3310.css'
         />
         <script
           // src='https://marketplace.manifoldxyz.dev/3.3.10/marketplace.umd.js'
-          src='https://marketplace.manifoldxyz.dev/3.5.13/marketplace.umd.js'
+          // src='https://marketplace.manifoldxyz.dev/3.5.13/marketplace.umd.js'
+          src='https://marketplace.manifoldxyz.dev/3.9.1/marketplace.umd.js'
           async
           defer
         ></script>
